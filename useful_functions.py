@@ -133,7 +133,7 @@ def mspe(y, y_synth):
 
 
 
-def plot_mspe_ratio(mspe_plot, treated_label='EWZ', figsize=(8,5)):
+def plot_mspe_ratio(mspe_plot, treated_label='EWZ', title="", figsize=(8,5)):
     """
     Plot MSPE ratios for placebo tests, highlighting the treated unit.
 
@@ -168,7 +168,7 @@ def plot_mspe_ratio(mspe_plot, treated_label='EWZ', figsize=(8,5)):
     plt.xticks(rotation=90)
     plt.xlabel('')
     plt.ylabel('MSPE ratio')
-    plt.title('MSPE ratio by country ETF')
+    plt.title(title)
 
     plt.tight_layout()
     plt.show()
