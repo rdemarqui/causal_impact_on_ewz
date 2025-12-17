@@ -1,0 +1,1 @@
+https://medium.com/@alexmriggio/synthetic-control-reproducing-the-findings-from-a-real-world-study-in-python-e372def45626
